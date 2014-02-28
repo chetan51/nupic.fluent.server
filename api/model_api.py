@@ -35,7 +35,7 @@ urls = (
   r"/([-\w]*)/reset", "Reset"
 )
 
-modelCache = LimitedSizeDict(size_limit=25)
+modelCache = LimitedSizeDict(size_limit=3)
 
 
 
